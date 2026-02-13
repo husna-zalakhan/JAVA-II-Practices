@@ -12,7 +12,7 @@ public class App{
 public static int getAvrg(int num1, int num2){
     int avrg = (num1+ num2)/2;
     
-    return avrg;
+    return avrg; //we are returning the value
 }
  public static void main(String[] args) {
     // we do print inside the main function 
@@ -22,6 +22,8 @@ public static int getAvrg(int num1, int num2){
     System.out.println("The average is: " + average);
 
 }
+/* block comment
+it is placed between slashes and asterisks */
 
 
 
