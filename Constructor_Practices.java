@@ -3,6 +3,13 @@ public class Constructor_Practices {
     public Constructor_Practices(){ // constructor 
 
     }
+
+    public Constructor_Practices( String cityName){
+
+    } 
+
+
+
 //instance variables 
     private String name;
     private int stdId;
@@ -14,6 +21,7 @@ public class Constructor_Practices {
     this.stdId= stdId;
     consentration= consen; 
 
+    
 
 
 
