@@ -15,12 +15,12 @@ public class Class_AUAF_Std {
     for each variable we have 1 get and 1 set method
     Get: i am calling the value assign for this variable
     Set: i am gonna set the value 
-*/
+    */
     public void setName(String name){ //argument class
         this.name= name; //this name belong to argment class. 
     }   //this.name belong to instance variable
         // in set method, we don't expect anything to return
-        
+
     public String getName(){
         return name;
 
