@@ -6,6 +6,11 @@ public class ConstructorMain {
 
     }
 
+    //non-static method
+    public void printName(){
+
+    }
+
     public static void main(String[] args){
         Constructor_Practices s1 = new Constructor_Practices("Arash", 2345, "Computer Science");  
 
@@ -23,6 +28,8 @@ public class ConstructorMain {
       System.out.println("University: " + B.Uni_Name);
       System.out.println("age: " + myAge); 
       printAge();
+      //ConstructorMain.printName();      
+      
 
     }
 }
